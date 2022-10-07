@@ -1,0 +1,23 @@
+.details {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+.detail--column {
+    flex-basis: 24%;
+    margin: 0 2rem;
+    padding: 1rem;
+    border: 1px dashed goldenrod;
+}
+
+
+
+.orders {
+    /* border: 1px dashed goldenrod; */
+    display: flex;
+    flex-direction: column;
+    font-size: normal;
+    align-items: center;
+}
+
